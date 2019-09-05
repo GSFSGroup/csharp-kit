@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prismicio", "prismic\prismicio.csproj", "{D952F249-33CE-4A07-BD96-08A78B25BEFC}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "prismicio", "prismic\prismicio.csproj", "{D952F249-33CE-4A07-BD96-08A78B25BEFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prismicio.tests", "prismic.tests\prismicio.tests.csproj", "{B25D378E-732E-4364-A6F0-E523EE1713DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "prismicio.tests", "prismic.tests\prismicio.tests.csproj", "{B25D378E-732E-4364-A6F0-E523EE1713DE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{1FC70BEF-B74C-4FA1-BC1E-F8D4AC1D44EE}"
 	ProjectSection(SolutionItems) = preProject
-		nuget\prismic.nuspec = nuget\prismic.nuspec
 		nuget\build.fsx = nuget\build.fsx
 		nuget\build.sh = nuget\build.sh
+		nuget\prismic.nuspec = nuget\prismic.nuspec
 	EndProjectSection
 EndProject
 Global
@@ -18,14 +20,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B25D378E-732E-4364-A6F0-E523EE1713DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B25D378E-732E-4364-A6F0-E523EE1713DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B25D378E-732E-4364-A6F0-E523EE1713DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B25D378E-732E-4364-A6F0-E523EE1713DE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D952F249-33CE-4A07-BD96-08A78B25BEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D952F249-33CE-4A07-BD96-08A78B25BEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D952F249-33CE-4A07-BD96-08A78B25BEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D952F249-33CE-4A07-BD96-08A78B25BEFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25D378E-732E-4364-A6F0-E523EE1713DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25D378E-732E-4364-A6F0-E523EE1713DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25D378E-732E-4364-A6F0-E523EE1713DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25D378E-732E-4364-A6F0-E523EE1713DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A2B59DA-F0AF-4C77-ABBC-A67F4ACFC6B6}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = prismic\prismicio.csproj
