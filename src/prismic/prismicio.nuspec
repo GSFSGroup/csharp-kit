@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>prismicio.core</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/GSFSGroup/csharp-kit</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Prismic Development kit for the C# language </description>
+    <releaseNotes>Add support for NetStandard 2.0.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+  </metadata>
+</package>
