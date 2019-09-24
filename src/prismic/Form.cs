@@ -427,7 +427,7 @@ namespace prismic
 							sep = "&";
 						}
 					}
-					api.Logger.log ("DEBUG", "Fetching URL: " + url);
+					// api.Logger.log ("DEBUG", "Fetching URL: " + url);
 					var json = await api.PrismicHttpClient.fetch (url, api.Logger, api.Cache);
 					return Response.Parse(json);
 				} else {
