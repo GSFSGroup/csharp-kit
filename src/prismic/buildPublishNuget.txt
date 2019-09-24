@@ -1,0 +1,5 @@
+ run 
+ 	nuget pack
+ 
+ then to push the package run 
+ 	nuget push prismicio.core.1.0.1.nupkg -Source "GitHub"
